@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - 12
-instal:
+install:
   - yarn install
 script:
   - npm run build

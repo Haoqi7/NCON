@@ -6,7 +6,7 @@
  */
 
 var ghpages = require('gh-pages')
-var REPO = 'git@github.com:lzxue/yiqingditu.git'
+var REPO = 'git@github.com:Haoqi7/NCON.git'
 
 function callback(e) {
   console.log(e)
