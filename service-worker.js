@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/yiqingditu/index.html","b3e428cd4129f0601e0ad3bb2130259c"],["/yiqingditu/static/js/main.378631f2.js","a046c05f12c82e12f93e3b6d9232a98a"]];
+var precacheConfig = [["D:/桌面/新建文件夹/css/build/index.html","0d1d2388659d377fbefc16044a740358"],["D:/桌面/新建文件夹/css/build/static/js/main.bc1e8316.js","2cd1bca521a55f25e7699cfa14e7be72"],["D:/桌面/新建文件夹/css/build/static/media/acorn.222268ea.mjs","222268ead405ea3b1e0c5a78704d6470"]];
 var cacheName = 'sw-precache-v3-sw-precache-webpack-plugin-' + (self.registration ? self.registration.scope : '');
 
 
@@ -229,7 +229,7 @@ self.addEventListener('fetch', function(event) {
 
     // If shouldRespond is still false, check to see if this is a navigation
     // request, and if so, whether the URL matches navigateFallbackWhitelist.
-    var navigateFallback = '/yiqingditu/index.html';
+    var navigateFallback = './index.html';
     if (!shouldRespond &&
         navigateFallback &&
         (event.request.mode === 'navigate') &&
